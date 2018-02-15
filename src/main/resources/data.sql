@@ -1,0 +1,5 @@
+INSERT INTO Collegue(nom,image_url,score) VALUES ('Leila','http://static.tumblr.com/604c1f8526cf8f5511c6d7a5e32f9abd/u00yntv/2wEmlbf4d/tumblr_static_baby_otter.jpg','100')
+INSERT INTO Collegue(nom,image_url,score) VALUES ('Vincent','http://static.tumblr.com/604c1f8526cf8f5511c6d7a5e32f9abd/u00yntv/2wEmlbf4d/tumblr_static_baby_otter.jpg','90')
+INSERT INTO Collegue(nom,image_url,score) VALUES ('Pauline','http://static.tumblr.com/604c1f8526cf8f5511c6d7a5e32f9abd/u00yntv/2wEmlbf4d/tumblr_static_baby_otter.jpg','80')
+INSERT INTO Collegue(nom,image_url,score) VALUES ('Ignacio','http://static.tumblr.com/604c1f8526cf8f5511c6d7a5e32f9abd/u00yntv/2wEmlbf4d/tumblr_static_baby_otter.jpg','70')
+INSERT INTO Collegue(nom,image_url,score) VALUES ('Remi','http://static.tumblr.com/604c1f8526cf8f5511c6d7a5e32f9abd/u00yntv/2wEmlbf4d/tumblr_static_baby_otter.jpg','10')
