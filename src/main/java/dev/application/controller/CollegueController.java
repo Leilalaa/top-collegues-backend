@@ -28,6 +28,12 @@ public class CollegueController {
 		return cr.findAll();
 	}
 	
+	@RequestMapping(method = RequestMethod.GET, path = "/collegues/{nom}")
+	public Collegue detailCollegue(@PathVariable String nom) {
+
+		return cr.findByNom(nom);
+	}
+	
 	@RequestMapping(method = RequestMethod.POST, path = "/collegues")
 	public Collegue sauvegarder(@RequestBody Collegue collegue) {
 		if(cr.findByNom(collegue.getNom()) == null){
